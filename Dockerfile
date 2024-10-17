@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expose the port that the Next.js app runs on
-EXPOSE 8080
+EXPOSE 8000
 
 # Set environment variable for production
 ENV NODE_ENV=production
